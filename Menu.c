@@ -326,7 +326,7 @@ static inline void Menu_SetCalibrationView(T_MenuSystem * pMenu, T_CalibrationIn
 
     /* Change the text fields that tell of the calibration point and the calibration state */
     char *  quantity         = "VIRTA";
-    char *  state            =  "1/2    ";
+    char *  state            = "1/2    ";
     char    unit             = 'A';
     uint8_t calibrationState = 0;
     uint8_t calibUnit        = 1;
