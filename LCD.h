@@ -1,20 +1,19 @@
 /*
  * LCD.h
  *
- *		LCD module contains functionality to use an EA DOGL 128-6 screen. The screen
- * is connected to the charger system with an USCI module and two ports defining EA DOGL
+ * LCD module contains functionality to use an EA DOGL 128-6 screen. The screen is
+ * connected to the charger system with an USCI module and two ports defining EA DOGL
  * specific functions. Also included in the source file is an 8p font made from a font
  * bitmap image by converting it with MATLAB into hexadecimal representation.
- *
  *
  * Header includes:
  * - necessary includes for uint8_t and text field data structures
  * - global functions declarations for turning on LCD screen and updating the screen
  *
  *
- *	   Part of: Charger project
- *  Created on: 11.7.2015
- *      Author: Teppo Uimonen
+ *    Part of: Charger project
+ * Created on: 11.7.2015
+ *     Author: Teppo Uimonen
  */
 
 
@@ -23,7 +22,7 @@
 
 
 /****************************************************************************************************
- * 											HEADERS
+ *                                             HEADERS
  ****************************************************************************************************/
 
 
@@ -33,7 +32,7 @@
 
 
 /****************************************************************************************************
- * 										GLOBAL FUNCTIONS
+ *                                         GLOBAL FUNCTIONS
  ****************************************************************************************************/
 
 
