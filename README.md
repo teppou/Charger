@@ -41,7 +41,7 @@ Should be looked:
 To make the code more elegant:
 - Current menu system serves it's purpose but is quite hard-coded and static. If more functionality will be added to the system a more dynamic menu approach should be considered to get rid of the switch approach. Function pointers could be of use here. Possibly also allocating memory dynamically when switching through views: but the current approach is really good because all needed memory is allocated in the initializing phase of the program.
 
-- The PWM module is only in the first steps of development, but instead of doing the calculations with float values an aprroach where all the control is done with unsigned int values should be thought for better performance.
+- The PWM module is only in the first steps of development, but instead of doing the calculations with float values an approach where all the control is done with unsigned int values should be thought for better performance.
 
 - In most cases when programming with devices there is a need for a structure representing a single device. In the current approach there are no structs (and of course not classes) for panels or battery because their values are easily maintained in measure information structure. But for better readibility, overall logic and dynamics there could be structures for these devices if more functionality will be added to the program. 
 		
