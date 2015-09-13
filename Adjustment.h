@@ -51,7 +51,7 @@ typedef struct
     /* Raw ADC measurement values */
     unsigned int rawMeas[15];
 
-    /* Measurement results as float values arranged in the order defined in this file */
+    /* Measurement results after conversion to voltage and current units for 10 needed values */
     float        measResults[10];
 
     /* Adjustment coefficient values */
