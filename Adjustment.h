@@ -35,17 +35,15 @@
 #include "Common.h"
 
 
-/*
- * Holds measurement information needed to save the ADC measurements and convert
- * them into current and voltage float values.
- */
-
-
 /****************************************************************************************************
  *                                     DATA TYPE DEFINITIONS
  ****************************************************************************************************/
 
 
+/*
+ * Holds measurement information needed to save the ADC measurements and convert
+ * them into current and voltage float values.
+ */
 typedef struct
 {
     /* Raw ADC measurement values */
