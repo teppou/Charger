@@ -325,22 +325,22 @@ static inline void Menu_SetCalibrationView(T_MenuSystem * pMenu, T_CalibrationIn
     }
 
     /* Change the text fields that tell of the calibration point and the calibration state */
-    char *     quantity         = "VIRTA";
-    char *    state              =  "1/2    ";
-    char     unit              = 'A';
+    char *     quantity      = "VIRTA";
+    char *    state          =  "1/2    ";
+    char     unit            = 'A';
     uint8_t calibrationState = 0;
-    uint8_t calibUnit          = 1;
+    uint8_t calibUnit        = 1;
 
     if(CALIBRATION_VIEW_2 == pMenu->menuState)
     {
         calibrationState = 1;
-        state              = "2/2    ";
+        state            = "2/2    ";
     }
 
     if(0 == (pCalibInfo->measToCalibrate % 2))
     {
         quantity  = "JaNNITE";
-        unit       = 'V';
+        unit      = 'V';
         calibUnit = 0;
     }
 
