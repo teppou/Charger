@@ -16,7 +16,7 @@ The code is written with Code Composer Studio 6.1 and programmed to the device u
 CURRENT STATE OF THE PROJECT
 --------------
 							
-HARDWARE: the circuit board is designed and equipped to be used with solar panel number four. At the time this is the only panel with necessary equipment to lead charge from the panel to the battery. Other than this, all four panel's PWM state can be controlled and read, also panel number one is equipped enough for it's voltage value to be read. Also the battery is connected and it's voltage can be read. LCD screen is connected and working.
+HARDWARE: the circuit board is designed and equipped to be used with solar panel number four. At the time this is the only panel with necessary equipment to lead charge from the panel to the battery. Other than this, all four panel's PWM state can be controlled and observed with an oscilloscope, also panel number one is equipped enough for it's voltage value to be read. Also the battery is connected and it's voltage can be read. LCD screen is connected and working.
 
 Due to a fault in circuit board design a single panel cannot simultaneously both tribute usage voltage to the microcontroller and lead charge from the PWM output to the battery. This is critical and the software part is halted until the problem is solved.
 
