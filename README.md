@@ -34,9 +34,9 @@ Critical:
 - I haven't found a good memory detection tool for embedded C in Windows environment so compiling the code in Linux and checking the code with Valgrind should be done even though the program is working perfectly. But who knows, maybe there's a memory management error causing the two behaviours described below.
 		
 Should be looked:
-- LCD screen has sometimes shut itself down suddenly. This is prevented by turning it on at regular intervals in Charger module but the cause should be investigated.
+- LCD screen has sometimes shut itself down suddenly. This is prevented by sending the initialization message at regular intervals in Charger module but the cause should be investigated.
 
-- For some reason the whole system halts quickly if 16 MHz crystal is sourced to MCLK. The system works well when MCLK is sourced from DC but the real reason should be found.
+- For some reason the whole system halts quickly if 16 MHz crystal is sourced to MCLK. The system works well when MCLK is sourced from DC but the real reason should be found. Possibly it's just a matter of finding the correct clock system configuration.
 		
 To make the code more elegant:
 - Current menu system serves it's purpose but is quite hard-coded and static. If more functionality will be added to the system a more dynamic menu approach should be considered to get rid of the switch approach. Function pointers could be of use here. Possibly also allocating memory dynamically when switching through views: but the current approach is really good because all needed memory is allocated in the initializing phase of the program.
