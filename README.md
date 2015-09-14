@@ -1,4 +1,4 @@
-Overall view to Charger Project
+Overall view of Charger Project
 ==============
  	
 Charger is a freetime hobby project where four solar panels gather solar energy which is then led to a battery using PWM (pulse-width modulation) technique with MPPT (maximum power point tracking) optimization to charge the battery in a very efficient way. The hardware is designed by Tapio Uimonen and the software implementation (everything in Git) is by Teppo Uimonen.
