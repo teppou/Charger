@@ -43,7 +43,7 @@ To make the code more elegant:
 
 - The PWM module is only in the first steps of development, but instead of doing the calculations with float values an approach where all the control is done with unsigned int values should be thought for better performance.
 
-- In most cases when programming with devices there is a need for a structure representing a single device. In the current approach there are no structs (and of course not classes) for panels or battery because their values are easily maintained in measure information structure. But for better readibility, overall logic and dynamics there could be structures for these devices if more functionality will be added to the program. 
+- In most cases when programming with devices there is a need for a structure representing a single device. In the current approach there are no structs (and of course not classes) for panels or battery because their values are easily maintained in measure information structure. But for better readability, overall logic and dynamics there could be structures for these devices if more functionality will be added to the program. 
 		
 A microcontroller with more memory will be installed at some point:
 - At the moment only the most previous measurement results are read which results into voltage and current values changing 0.03 units (A or V) when raw measurement values change a single step. To make the result step size smaller, to 0.01 units, current values should be calculated as an average of past 3-5 measurements and holding these values requires more RAM. 
