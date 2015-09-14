@@ -18,7 +18,7 @@ CURRENT STATE OF THE PROJECT
 							
 HARDWARE: the circuit board is designed and equipped to be used with solar panel number four. At the time this is the only panel with necessary equipment to lead charge from the panel to the battery. Other than this, all four panel's PWM state can be controlled and observed with an oscilloscope, also panel number one is equipped enough for it's voltage value to be read. Also the battery is connected and it's voltage can be read. LCD screen is connected and working.
 
-Due to a fault in circuit board design a single panel cannot simultaneously both tribute usage voltage to the microcontroller and lead charge from the PWM output to the battery. This is critical and the software part is halted until the problem is solved.
+Due to a fault in circuit board design a single panel cannot simultaneously both provide usage voltage to the microcontroller and lead charge from the PWM output to the battery. This is critical and the software part is halted until the problem is solved.
 
 SOFTWARE: the software is divided into different parts that work separately. At the moment the software can display the voltage and current measurement values of four panels and the battery in measurement views. Also the menu system for calibrating and adjusting measurement channels is implemented and working. All in all, modules Charger, Adjustment, LCD and Menu are in a good state. Charger module will be developed more when the hardware fault is fixed.	
 TODO LIST FOR SOFTWARE
